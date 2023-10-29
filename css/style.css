@@ -1,0 +1,177 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    text-align: center;
+}
+
+.city{
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 78px;
+}
+
+.temp{
+    font-size: 64px;
+    font-weight: 400;
+    margin: 1px 0 0px 0;
+}
+
+
+.container{
+    max-width: 1312px;
+    margin: 0 auto;
+}
+
+.tyday__flex{
+    display: flex;
+    gap: 16px;
+}
+
+.tyday__title{
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+    padding: 30px 0 30px 0;
+}
+
+.today__card{
+    background: rgba(255, 255, 255, 0.20);
+    border-radius: 16px;
+    min-width: 247px;
+    height: 171px;
+    margin-bottom: 66px;
+}
+
+.today__card2{
+    width: auto;
+}
+
+.today__card-cont{
+    display: flex;
+    padding: 24px 0 12px 24px;
+    gap: 22px;
+    align-items: center;
+}
+
+.today__text-cont{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+.today__text{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0 0 47px 24px;
+}
+
+.week{
+    display: flex;
+    gap: 16px;
+}
+
+.week__card{
+    background: rgba(255, 255, 255, 0.20);
+    width: 150px;
+    border-radius: 16px;
+    padding-left: 24px;
+    margin-bottom: 160px;
+}
+
+.day{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 24px;
+}
+
+.date{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.max__temp{
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.min__temp{
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: -6px;
+}
+
+.sost{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 0 21px 0;
+    margin: 0;
+}
+
+@media (max-width: 1980px) {
+    .container {
+      max-width: 1700px;
+    }
+    .tyday__flex{
+        gap: 25px;
+    }
+    .week{
+        gap: 25px;
+    }
+}
+
+@media (max-width: 1536px){
+    .container {
+        max-width: 1312px;
+    }
+    .tyday__flex{
+        gap: 16px;
+    }
+    .week{
+        gap: 16px;
+        /*padding: 0 64px;*/
+    }
+}
+
+@media (max-width: 1391px){
+    .main{
+        padding: 0 64px;
+    }
+}
+
+@media (max-width: 1153px){
+    .week{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .week__card{
+        margin-bottom: 40px;
+    }
+    .today__text-cont{
+        max-width: 300px;
+        font-size: clamp(15px, 5vw, 20px);
+    }
+    
+}
+
+@media (max-width: 655px){
+    .week{
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+    }
+}
