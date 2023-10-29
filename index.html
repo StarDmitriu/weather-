@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wheather</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <p class="city" id="city">Город</p>
+        <p class="temp" id="temp">30°</p>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="today">
+                <p class="tyday__title">Сегодня</p>
+                <div class="tyday__flex">
+                    <div class="today__card">
+                        <div class="today__card-cont">
+                            <img src="img/wait.png" alt="">
+                            <p class="today__text-cont" id="speed">16км/ч</p>
+                        </div>
+                    </div>
+                    <div class="today__card today__card2">
+                        <div class="today__card-cont">
+                            <img src="img/rain.png" alt="">
+                            <p class="today__text-cont" id="weather">относительно пасмурно</p>
+                        </div>
+                    </div>
+                    <div class="today__card">
+                        <div class="today__card-cont">
+                            <img src="img/cloud.png" alt="">
+                            <p class="today__text-cont" id="all">100 %</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="week">
+                <div class="week__card">
+                    <p class="day">Сегодня</p>
+                    <p class="date" id="date0">22 октября</p>
+                    <img src="img/cloud-rain.png" alt="">
+                    <p class="max__temp1 max__temp" id="temp2">+8°</p>
+                    <p class="min__temp" id="temp__min2">+6°</p>
+                    <p class="sost">Облачно</p>
+                </div>
+                <div class="week__card">
+                    <p class="day">Пн</p>
+                    <p class="date date1" id="date1">23 октября</p>
+                    <img src="img/cloud-rain.png" alt="">
+                    <p class="max__temp1 max__temp" id="day1">+8°</p>
+                    <p class="min__temp" id="min__temp1">+6°</p>
+                    <p class="sost">Облачно</p>
+                </div>
+                <div class="week__card">
+                    <p class="day">Вт</p>
+                    <p class="date date2" id="date2">24 октября</p>
+                    <img src="img/cloud-rain.png" alt="">
+                    <p class="max__temp2 max__temp" id="day2">+4°</p>
+                    <p class="min__temp" id="min__temp2">+4°</p>
+                    <p class="sost">Облачно</p>
+                </div>
+                <div class="week__card">
+                    <p class="day">Ср</p>
+                    <p class="date date3" id="date3">25 октября</p>
+                    <img src="img/cloud-rain.png" alt="">
+                    <p class="max__temp3 max__temp" id="day3">+9°</p>
+                    <p class="min__temp"id="min__temp3" >+10°</p>
+                    <p class="sost">Облачно</p>
+                </div>
+                <div class="week__card">
+                    <p class="day">Чт</p>
+                    <p class="date date4" id="date4">26 октября</p>
+                    <img src="img/cloud-rain.png" alt="">
+                    <p class="max__temp4 max__temp" id="day4">+3°</p>
+                    <p class="min__temp" id="min__temp4">+4°</p>
+                    <p class="sost">Облачно</p>
+                </div>
+                <div class="week__card">
+                    <p class="day">Пт</p>
+                    <p class="date date5" id="date5">27 октября</p>
+                    <img src="img/cloud-rain.png" alt="">
+                    <p class="max__temp5 max__temp" id="day5">+2°</p>
+                    <p class="min__temp" id="min__temp5">+1°</p>
+                    <p class="sost">Облачно</p>
+                </div>
+                <div class="week__card">
+                    <p class="day">Сб</p>
+                    <p class="date date6" id="date6">28 октября</p>
+                    <img src="img/cloud-rain.png" alt="">
+                    <p class="max__temp6 max__temp" id="day6">+1°</p>
+                    <p class="min__temp" id="min__temp6">0°</p>
+                    <p class="sost">Облачно</p>
+                </div>
+                <div class="week__card">
+                    <p class="day">Вс</p>
+                    <p class="date date7" id="date7">29 октября</p>
+                    <img src="img/cloud-rain.png" alt="">
+                    <p class="max__temp7 max__temp" id="day7">+10°</p>
+                    <p class="min__temp" id="min__temp7">+6°</p>
+                    <p class="sost">Облачно</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
