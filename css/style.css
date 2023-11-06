@@ -169,9 +169,51 @@ body {
     
 }
 
-@media (max-width: 655px){
+@media (max-width: 865px){
+    .main{
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 808px){
+    .tyday__flex{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
     .week{
         display: grid;
-        grid-template-columns: repeat(2, 400px);
+        grid-template-columns: repeat(2, 2fr);
     }
+    .week__card{
+        max-width: 200px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 541px){
+    .tyday__flex{
+        display: block;
+        max-width: 371px;
+    }
+    .today__card2{
+        margin-bottom: 30px;
+    }
+    .today__card{
+        margin-bottom: 30px;
+    }
+    .week__card{
+        max-width: 150px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px){
+    .week__card{
+        max-width: 120px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 426px){
+
 }
